@@ -6,12 +6,12 @@ import cloudscraper
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "8978017343:AAFga4rDqExsFQ6BoKc5dGoe7Tu7Bpv7gWw"
-REGISTRATION_LINK = "https://dkwin7.com/#/register?invitationCode=82824101415"
+TOKEN = "8978017343:AAGcnXfBEn76BmCJULIn4U0Mm8cB5aLgrSM"
+REGISTRATION_LINK = "https://dkwin9.com/#/register?invitationCode=61187343831"
 CHANNEL_ID = "@freedkwinsignal"  # আপনার চ্যানেল ইউজারনেম
 
 # --- পাসওয়ার্ড ও ইউজার লিস্ট ---
-BOT_PASSWORD = "123"  # আপনার মেম্বারদের জন্য পাসওয়ার্ড
+BOT_PASSWORD = "13344"  # আপনার মেম্বারদের জন্য পাসওয়ার্ড
 AUTHORIZED_USERS = set()  # পাসওয়ার্ড দেওয়া মেম্বারদের আইডি এখানে জমা হবে
 
 # --- স্টিকার ID ---
