@@ -1,3 +1,17 @@
+import os
+import subprocess
+import sys
+
+# কোড রান হওয়ার সময় ফ্লাস্ক বা টেলিগ্রাম লাইব্রেরি না থাকলে অটোমেটিক ইন্সটল করে নেবে
+try:
+    import flask
+except ImportError:
+    subprocess.check_call(
+        [sys.executable, "-m", "pip", "install", "flask", "python-telegram-bot", "gunicorn"]
+    )
+    import flask
+
+from flask import Flask
 import time
 import datetime
 import asyncio
